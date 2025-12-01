@@ -19,7 +19,7 @@ class TB3ArmLogger(Node):
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
         # Base directory
-        base_dir = os.path.expanduser('~/turtlebot3_ws/data_logged/Arm')
+        base_dir = os.path.expanduser('~fabin/data_logged/Arm')
         os.makedirs(base_dir, exist_ok=True)
 
         # Path to save HDF5 file, including the timestamp
