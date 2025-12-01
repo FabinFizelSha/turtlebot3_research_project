@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pick_place_demo/pick_place_demo.egg-info/PKG-INFO
+../../build/pick_place_demo/pick_place_demo.egg-info/SOURCES.txt
+../../build/pick_place_demo/pick_place_demo.egg-info/dependency_links.txt
+../../build/pick_place_demo/pick_place_demo.egg-info/entry_points.txt
+../../build/pick_place_demo/pick_place_demo.egg-info/requires.txt
+../../build/pick_place_demo/pick_place_demo.egg-info/top_level.txt
+../../build/pick_place_demo/pick_place_demo.egg-info/zip-safe
+pick_place_demo/__init__.py
+pick_place_demo/node1.py
+resource/pick_place_demo
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

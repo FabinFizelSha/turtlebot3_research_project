@@ -1,0 +1,44 @@
+[0.539s] Invoking command in '/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl': PYTHONPATH=/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build
+[0.765s] running develop
+[0.911s] Removing /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3-arm-ctrl.egg-link (link to .)
+[0.934s] Invoked command in '/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl' returned '0': PYTHONPATH=/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build
+[0.936s] Invoking command in '/home/fabin/turtlebot3_ws/src/tb3_arm_ctrl': PYTHONPATH=/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_arm_ctrl build --build-base /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build install --record /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/install.log --single-version-externally-managed install_data --force
+[1.145s] running egg_info
+[1.146s] writing ../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/PKG-INFO
+[1.146s] writing dependency_links to ../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/dependency_links.txt
+[1.147s] writing entry points to ../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/entry_points.txt
+[1.147s] writing requirements to ../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/requires.txt
+[1.147s] writing top-level names to ../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/top_level.txt
+[1.148s] reading manifest file '../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/SOURCES.txt'
+[1.149s] writing manifest file '../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info/SOURCES.txt'
+[1.149s] running build
+[1.149s] running build_py
+[1.149s] creating /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build
+[1.149s] creating /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib
+[1.149s] creating /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl
+[1.149s] copying tb3_arm_ctrl/ctrl_node.py -> /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl
+[1.149s] copying tb3_arm_ctrl/__init__.py -> /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl
+[1.149s] copying tb3_arm_ctrl/ik_node.py -> /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl
+[1.150s] copying tb3_arm_ctrl/goal_node.py -> /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl
+[1.150s] running install
+[1.150s] running install_lib
+[1.150s] creating /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl
+[1.150s] copying /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl/ctrl_node.py -> /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl
+[1.150s] copying /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl/__init__.py -> /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl
+[1.150s] copying /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl/ik_node.py -> /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl
+[1.150s] copying /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build/lib/tb3_arm_ctrl/goal_node.py -> /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl
+[1.151s] byte-compiling /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl/ctrl_node.py to ctrl_node.cpython-310.pyc
+[1.152s] byte-compiling /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl/__init__.py to __init__.cpython-310.pyc
+[1.152s] byte-compiling /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl/ik_node.py to ik_node.cpython-310.pyc
+[1.153s] byte-compiling /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl/goal_node.py to goal_node.cpython-310.pyc
+[1.153s] running install_data
+[1.153s] copying resource/tb3_arm_ctrl -> /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/share/ament_index/resource_index/packages
+[1.154s] copying package.xml -> /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/share/tb3_arm_ctrl
+[1.154s] running install_egg_info
+[1.155s] Copying ../../build/tb3_arm_ctrl/tb3_arm_ctrl.egg-info to /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages/tb3_arm_ctrl-0.0.1-py3.10.egg-info
+[1.156s] running install_scripts
+[1.172s] Installing ctrl_node script to /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/tb3_arm_ctrl
+[1.173s] Installing goal_node script to /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/tb3_arm_ctrl
+[1.173s] Installing ik_node script to /home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/tb3_arm_ctrl
+[1.173s] writing list of installed files to '/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/install.log'
+[1.193s] Invoked command in '/home/fabin/turtlebot3_ws/src/tb3_arm_ctrl' returned '0': PYTHONPATH=/home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_arm_ctrl build --build-base /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/build install --record /home/fabin/turtlebot3_ws/build/tb3_arm_ctrl/install.log --single-version-externally-managed install_data --force

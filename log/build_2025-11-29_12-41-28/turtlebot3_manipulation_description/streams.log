@@ -1,0 +1,61 @@
+[0.065s] Invoking command in '/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake /home/fabin/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description
+[1.131s] -- The C compiler identification is GNU 11.4.0
+[1.131s] -- The CXX compiler identification is GNU 11.4.0
+[1.131s] -- Detecting C compiler ABI info
+[1.131s] -- Detecting C compiler ABI info - done
+[1.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.132s] -- Detecting C compile features
+[1.132s] -- Detecting C compile features - done
+[1.132s] -- Detecting CXX compiler ABI info
+[1.132s] -- Detecting CXX compiler ABI info - done
+[1.132s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.133s] -- Detecting CXX compile features
+[1.133s] -- Detecting CXX compile features - done
+[1.133s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.133s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.133s] -- Configuring done
+[1.133s] -- Generating done
+[1.134s] -- Build files have been written to: /home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description
+[1.347s] Invoked command in '/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake /home/fabin/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description
+[1.348s] Invoking command in '/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --build /home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description -- -j16 -l16
+[1.412s] Invoked command in '/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --build /home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description -- -j16 -l16
+[1.414s] Invoking command in '/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --install /home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description
+[1.449s] -- Install configuration: ""
+[1.449s] -- Execute custom install script
+[1.449s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[1.449s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[1.452s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[1.488s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[1.511s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[1.538s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[1.563s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[1.580s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[1.601s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[1.639s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[1.655s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[1.689s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[1.703s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[1.725s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[1.751s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[1.783s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[1.806s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[1.851s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[1.879s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[1.922s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[1.948s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[1.966s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[1.990s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[2.015s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[2.030s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[2.044s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[2.057s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[2.075s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[2.089s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[2.102s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[2.117s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[2.130s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[2.142s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[2.151s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[2.159s] -- Symlinking: /home/fabin/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[2.286s] Invoked command in '/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --install /home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_description

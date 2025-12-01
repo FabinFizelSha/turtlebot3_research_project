@@ -1,0 +1,10 @@
+<depend>rclpy</depend>
+<depend>control_msgs</depend>
+<buildtool_depend>ament_python</buildtool_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+<export>
+  <ament_python>
+    <module>turtlebot3_manipulation_control</module>
+    <main>setup.py</main>
+  </ament_python>
+</export>

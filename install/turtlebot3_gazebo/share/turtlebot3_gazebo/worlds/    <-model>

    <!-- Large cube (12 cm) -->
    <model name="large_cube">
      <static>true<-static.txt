@@ -1,0 +1,5 @@
+/home/fabin/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/    <-model>
+
+    <!-- Large cube (12 cm) -->
+    <model name="large_cube">
+      <static>true<-static.txt

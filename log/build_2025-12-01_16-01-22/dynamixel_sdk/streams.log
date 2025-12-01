@@ -1,0 +1,94 @@
+[0.135s] Invoking command in '/home/fabin/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake /home/fabin/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/fabin/turtlebot3_ws/install/dynamixel_sdk
+[1.648s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.649s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.649s] -- Configuring done
+[1.650s] -- Generating done
+[1.650s] -- Build files have been written to: /home/fabin/turtlebot3_ws/build/dynamixel_sdk
+[1.695s] Invoked command in '/home/fabin/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake /home/fabin/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/fabin/turtlebot3_ws/install/dynamixel_sdk
+[1.695s] Invoking command in '/home/fabin/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --build /home/fabin/turtlebot3_ws/build/dynamixel_sdk -- -j16 -l16
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk[0m
+[1.792s] [  0%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.824s] [100%] Built target dynamixel_sdk
+[2.232s] running egg_info
+[2.233s] writing dynamixel_sdk.egg-info/PKG-INFO
+[2.233s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[2.233s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[2.237s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.239s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.301s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.419s] Invoked command in '/home/fabin/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --build /home/fabin/turtlebot3_ws/build/dynamixel_sdk -- -j16 -l16
+[2.420s] Invoking command in '/home/fabin/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --install /home/fabin/turtlebot3_ws/build/dynamixel_sdk
+[2.470s] -- Install configuration: ""
+[2.473s] -- Execute custom install script
+[2.474s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.474s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.475s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.476s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[2.477s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[2.477s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[2.479s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.479s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.479s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[2.480s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/PKG-INFO
+[2.481s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/SOURCES.txt
+[2.481s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/dependency_links.txt
+[2.487s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/top_level.txt
+[2.487s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[2.487s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[2.488s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[2.489s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.490s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.491s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.491s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.491s] -- Symlinking: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.491s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.491s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[2.491s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.493s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.493s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.493s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.494s] -- Up-to-date symlink: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.495s] -- Up-to-date: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.531s] Listing '/home/fabin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[2.542s] -- Up-to-date: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[2.543s] -- Up-to-date: /home/fabin/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[2.569s] Invoked command in '/home/fabin/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fabin/turtlebot3_ws/install/turtlebot3_teleop:/home/fabin/turtlebot3_ws/install/turtlebot3_example:/home/fabin/turtlebot3_ws/install/tb3_ik:/home/fabin/turtlebot3_ws/install/tb3_arm_logger:/home/fabin/turtlebot3_ws/install/tb3_arm_ctrl:/home/fabin/turtlebot3_ws/install/pick_place_demo:/opt/ros/humble /usr/bin/cmake --install /home/fabin/turtlebot3_ws/build/dynamixel_sdk

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Box (20 cm x 20 cm x 10 cm) -->
+    <model name="box">
+      <pose>-1.73 -0.5 0.05 0 0 0</pose> <!-- z = half height -->
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.2 0.2 0.1</size> <!-- 20 cm x 20 cm x 10 cm -->
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.2 0.2 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.2 0.2 1</ambient>
+            <diffuse>0.7 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Small cube (4 cm side) -->
+    <model name="small_cube">
+      <!-- z = box height + half cube height = 0.1 + 0.02 -->
+      <pose>-1.73 -0.5 0.12 0 0 0</pose>
+      <static>false</static>
+      <link name="link">
+        <inertial>
+          <mass>0.30</mass> <!-- 100 g for stability -->
+        </inertial>
+
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.04 0.04 0.04</size> <!-- 4 cm cube -->
+            </box>
+          </geometry>
+
+          <surface>
+            <friction>
+              <ode>
+                <mu>10.0</mu>        <!-- High friction for better gripping -->
+                <mu2>10.0</mu2>
+              </ode>
+            </friction>
+            <bounce>
+              <restitution_coefficient>0.010</restitution_coefficient>
+              <threshold>0</threshold>
+            </bounce>
+          </surface>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.04 0.04 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.7 1</ambient>
+            <diffuse>0.2 0.2 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Scene settings -->
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <!-- GUI camera -->
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>0.319654 -0.235002 9.29441 0 1.5138 0.009599</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+    <!-- Physics settings -->
+<physics type="ode">
+  <real_time_update_rate>1000.0</real_time_update_rate>
+  <max_step_size>0.001</max_step_size>
+  <ode>
+    <solver>
+      <iters>200</iters>               <!-- More solver iterations -->
+      <sor>1.0</sor>
+    </solver>
+    <constraints>
+      <erp>0.8</erp>                   <!-- Stronger contact correction -->
+      <cfm>0.0</cfm>
+      <contact_surface_layer>0.001</contact_surface_layer>
+    </constraints>
+  </ode>
+</physics>
+
+
+  </world>
+</sdf>
+

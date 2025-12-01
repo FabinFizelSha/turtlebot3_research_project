@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tb3-arm-logger
+Version: 0.0.1
+Summary: Logs TurtleBot3 arm and gripper states into HDF5
+Home-page: UNKNOWN
+Maintainer: user
+Maintainer-email: user@todo.todo
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+

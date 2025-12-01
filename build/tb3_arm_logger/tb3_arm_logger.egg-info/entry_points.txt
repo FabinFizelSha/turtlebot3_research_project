@@ -1,0 +1,3 @@
+[console_scripts]
+tb3_hdf5_logger = tb3_arm_logger.tb3_hdf5_logger:main
+

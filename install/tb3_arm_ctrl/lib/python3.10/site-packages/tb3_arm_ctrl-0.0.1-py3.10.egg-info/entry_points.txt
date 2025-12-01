@@ -1,0 +1,5 @@
+[console_scripts]
+ctrl_node = tb3_arm_ctrl.ctrl_node:main
+goal_node = tb3_arm_ctrl.goal_node:main
+ik_node = tb3_arm_ctrl.ik_node:main
+

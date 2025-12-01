@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating pick_place_demo.egg-info
+writing pick_place_demo.egg-info/PKG-INFO
+writing dependency_links to pick_place_demo.egg-info/dependency_links.txt
+writing entry points to pick_place_demo.egg-info/entry_points.txt
+writing requirements to pick_place_demo.egg-info/requires.txt
+writing top-level names to pick_place_demo.egg-info/top_level.txt
+writing manifest file 'pick_place_demo.egg-info/SOURCES.txt'
+reading manifest file 'pick_place_demo.egg-info/SOURCES.txt'
+writing manifest file 'pick_place_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fabin/turtlebot3_ws/install/pick_place_demo/lib/python3.10/site-packages/pick-place-demo.egg-link (link to .)
+
+Installed /home/fabin/turtlebot3_ws/build/pick_place_demo
+running symlink_data
+creating /home/fabin/turtlebot3_ws/install/pick_place_demo/share/ament_index
+creating /home/fabin/turtlebot3_ws/install/pick_place_demo/share/ament_index/resource_index
+creating /home/fabin/turtlebot3_ws/install/pick_place_demo/share/ament_index/resource_index/packages
+symbolically linking /home/fabin/turtlebot3_ws/build/pick_place_demo/resource/pick_place_demo -> /home/fabin/turtlebot3_ws/install/pick_place_demo/share/ament_index/resource_index/packages
+symbolically linking /home/fabin/turtlebot3_ws/build/pick_place_demo/package.xml -> /home/fabin/turtlebot3_ws/install/pick_place_demo/share/pick_place_demo

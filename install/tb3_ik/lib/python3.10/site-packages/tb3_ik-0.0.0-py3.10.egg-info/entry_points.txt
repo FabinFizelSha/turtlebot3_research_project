@@ -1,0 +1,3 @@
+[console_scripts]
+tb3_ik_controller = tb3_ik.tb3_ik_controller:main
+

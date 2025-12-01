@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="sloped_ramp_world">
+
+    <!-- Sun and lighting -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- TurtleBot3 -->
+    <include>
+      <uri>model://turtlebot3_waffle_pi</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Ramp 1: small slope -->
+    <model name="ramp1">
+      <static>true</static>
+      <link name="link">
+        <pose>0 2 0.1 0 -0.1745 0</pose> <!-- 10° slope -->
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2 1 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2 1 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.4 0.1 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Ramp 2: steeper slope -->
+    <model name="ramp2">
+      <static>true</static>
+      <link name="link">
+        <pose>3 0 0.1 0 -0.349 0</pose> <!-- 20° slope -->
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2 1 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2 1 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.4 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Ramp 3: long gradual slope -->
+    <model name="ramp3">
+      <static>true</static>
+      <link name="link">
+        <pose>-3 -2 0.1 0 -0.087 0</pose> <!-- 5° slope -->
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4 1 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>4 1 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.4 0.8 0.1 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Physics settings -->
+    <physics type="ode">
+      <gravity>0 0 -9.81</gravity>
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+  </world>
+</sdf>
+

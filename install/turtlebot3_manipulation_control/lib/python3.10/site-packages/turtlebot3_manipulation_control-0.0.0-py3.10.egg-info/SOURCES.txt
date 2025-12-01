@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/PKG-INFO
+../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/SOURCES.txt
+../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/dependency_links.txt
+../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/entry_points.txt
+../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/requires.txt
+../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/top_level.txt
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+turtlebot3_manipulation_control/__init__.py
+turtlebot3_manipulation_control/turtlebot3_ik_demo.py

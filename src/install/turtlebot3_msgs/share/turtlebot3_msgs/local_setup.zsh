@@ -1,0 +1,1 @@
+/home/fabin/turtlebot3_ws/src/build/turtlebot3_msgs/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7c1218b0236b3dbaf873.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot3_manipulation_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_manipulation_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_manipulation_hardware-901bb04b755e9a14f6fa.json",
+					"name" : "turtlebot3_manipulation_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_manipulation_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_manipulation_hardware_uninstall-9b46acde5c0cc8cfbabf.json",
+					"name" : "turtlebot3_manipulation_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-25e9db50f14e05143fe9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fabin/turtlebot3_ws/build/turtlebot3_manipulation_hardware",
+		"source" : "/home/fabin/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

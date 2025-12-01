@@ -1,0 +1,18 @@
+[2.231s] Invoking command in '/home/fabin/turtlebot3_ws/build/tb3_ik': PYTHONPATH=/home/fabin/turtlebot3_ws/build/tb3_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/turtlebot3_ws/install/tb3_ik/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fabin/turtlebot3_ws/build/tb3_ik/build --no-deps
+[2.559s] running develop
+[2.807s] running egg_info
+[2.808s] creating tb3_ik.egg-info
+[2.808s] writing tb3_ik.egg-info/PKG-INFO
+[2.808s] writing dependency_links to tb3_ik.egg-info/dependency_links.txt
+[2.808s] writing entry points to tb3_ik.egg-info/entry_points.txt
+[2.808s] writing requirements to tb3_ik.egg-info/requires.txt
+[2.808s] writing top-level names to tb3_ik.egg-info/top_level.txt
+[2.808s] writing manifest file 'tb3_ik.egg-info/SOURCES.txt'
+[2.809s] reading manifest file 'tb3_ik.egg-info/SOURCES.txt'
+[2.809s] writing manifest file 'tb3_ik.egg-info/SOURCES.txt'
+[2.810s] running build_ext
+[2.810s] Creating /home/fabin/turtlebot3_ws/install/tb3_ik/lib/python3.10/site-packages/tb3-ik.egg-link (link to .)
+[2.811s] Installing tb3_ik_controller script to /home/fabin/turtlebot3_ws/install/tb3_ik/lib/tb3_ik
+[2.811s] 
+[2.811s] Installed /home/fabin/turtlebot3_ws/build/tb3_ik
+[2.925s] Invoked command in '/home/fabin/turtlebot3_ws/build/tb3_ik' returned '0': PYTHONPATH=/home/fabin/turtlebot3_ws/build/tb3_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/turtlebot3_ws/install/tb3_ik/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fabin/turtlebot3_ws/build/tb3_ik/build --no-deps

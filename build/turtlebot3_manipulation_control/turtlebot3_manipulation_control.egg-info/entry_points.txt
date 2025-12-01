@@ -1,0 +1,3 @@
+[console_scripts]
+turtlebot3_ik_demo = turtlebot3_manipulation_control.turtlebot3_ik_demo:main
+
