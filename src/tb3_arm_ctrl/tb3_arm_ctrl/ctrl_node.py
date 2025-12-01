@@ -24,7 +24,7 @@ class CtrlNode(Node):
         self.gripper_open =  0.010
         self.gripper_closed = -0.010
         self.current_gripper_pos = 0.0
-        self.gripper_step = 0.0010
+        self.gripper_step = 0.0012
         self.max_effort = 4.0
 
         # --- State ---
