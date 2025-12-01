@@ -1,0 +1,26 @@
+[1.483s] Invoking command in '/home/fabin/PycharmProjects/turtlebot3_research_project/src/tb3_ik': PYTHONPATH=/home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_ik build --build-base /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/build install --record /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/install.log --single-version-externally-managed
+[1.685s] running egg_info
+[1.687s] writing ../../build/tb3_ik/tb3_ik.egg-info/PKG-INFO
+[1.687s] writing dependency_links to ../../build/tb3_ik/tb3_ik.egg-info/dependency_links.txt
+[1.687s] writing entry points to ../../build/tb3_ik/tb3_ik.egg-info/entry_points.txt
+[1.687s] writing requirements to ../../build/tb3_ik/tb3_ik.egg-info/requires.txt
+[1.687s] writing top-level names to ../../build/tb3_ik/tb3_ik.egg-info/top_level.txt
+[1.689s] reading manifest file '../../build/tb3_ik/tb3_ik.egg-info/SOURCES.txt'
+[1.689s] writing manifest file '../../build/tb3_ik/tb3_ik.egg-info/SOURCES.txt'
+[1.690s] running build
+[1.690s] running build_py
+[1.690s] copying tb3_ik/__init__.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/build/lib/tb3_ik
+[1.690s] copying tb3_ik/tb3_ik_controller.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/build/lib/tb3_ik
+[1.691s] running install
+[1.691s] running install_lib
+[1.691s] copying /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/build/lib/tb3_ik/__init__.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages/tb3_ik
+[1.691s] copying /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/build/lib/tb3_ik/tb3_ik_controller.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages/tb3_ik
+[1.692s] byte-compiling /home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages/tb3_ik/__init__.py to __init__.cpython-310.pyc
+[1.692s] byte-compiling /home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages/tb3_ik/tb3_ik_controller.py to tb3_ik_controller.cpython-310.pyc
+[1.694s] running install_egg_info
+[1.695s] removing '/home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages/tb3_ik-0.0.0-py3.10.egg-info' (and everything under it)
+[1.695s] Copying ../../build/tb3_ik/tb3_ik.egg-info to /home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages/tb3_ik-0.0.0-py3.10.egg-info
+[1.697s] running install_scripts
+[1.718s] Installing tb3_ik_controller script to /home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/tb3_ik
+[1.718s] writing list of installed files to '/home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/install.log'
+[1.757s] Invoked command in '/home/fabin/PycharmProjects/turtlebot3_research_project/src/tb3_ik' returned '0': PYTHONPATH=/home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/PycharmProjects/turtlebot3_research_project/install/tb3_ik/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_ik build --build-base /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/build install --record /home/fabin/PycharmProjects/turtlebot3_research_project/build/tb3_ik/install.log --single-version-externally-managed

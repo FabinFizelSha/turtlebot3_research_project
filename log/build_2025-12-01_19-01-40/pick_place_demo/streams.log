@@ -1,0 +1,28 @@
+[1.500s] Invoking command in '/home/fabin/PycharmProjects/turtlebot3_research_project/src/pick_place_demo': PYTHONPATH=/home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pick_place_demo build --build-base /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/build install --record /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/install.log --single-version-externally-managed install_data
+[1.713s] running egg_info
+[1.714s] writing ../../build/pick_place_demo/pick_place_demo.egg-info/PKG-INFO
+[1.715s] writing dependency_links to ../../build/pick_place_demo/pick_place_demo.egg-info/dependency_links.txt
+[1.715s] writing entry points to ../../build/pick_place_demo/pick_place_demo.egg-info/entry_points.txt
+[1.715s] writing requirements to ../../build/pick_place_demo/pick_place_demo.egg-info/requires.txt
+[1.715s] writing top-level names to ../../build/pick_place_demo/pick_place_demo.egg-info/top_level.txt
+[1.717s] reading manifest file '../../build/pick_place_demo/pick_place_demo.egg-info/SOURCES.txt'
+[1.718s] writing manifest file '../../build/pick_place_demo/pick_place_demo.egg-info/SOURCES.txt'
+[1.718s] running build
+[1.718s] running build_py
+[1.718s] copying pick_place_demo/node1.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/build/lib/pick_place_demo
+[1.718s] copying pick_place_demo/__init__.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/build/lib/pick_place_demo
+[1.719s] running install
+[1.719s] running install_lib
+[1.720s] copying /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/build/lib/pick_place_demo/node1.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages/pick_place_demo
+[1.720s] copying /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/build/lib/pick_place_demo/__init__.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages/pick_place_demo
+[1.720s] byte-compiling /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages/pick_place_demo/node1.py to node1.cpython-310.pyc
+[1.721s] byte-compiling /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages/pick_place_demo/__init__.py to __init__.cpython-310.pyc
+[1.721s] running install_data
+[1.721s] copying resource/pick_place_demo -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/share/ament_index/resource_index/packages
+[1.722s] copying package.xml -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/share/pick_place_demo
+[1.722s] running install_egg_info
+[1.723s] removing '/home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages/pick_place_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.724s] Copying ../../build/pick_place_demo/pick_place_demo.egg-info to /home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages/pick_place_demo-0.0.0-py3.10.egg-info
+[1.724s] running install_scripts
+[1.741s] writing list of installed files to '/home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/install.log'
+[1.802s] Invoked command in '/home/fabin/PycharmProjects/turtlebot3_research_project/src/pick_place_demo' returned '0': PYTHONPATH=/home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/PycharmProjects/turtlebot3_research_project/install/pick_place_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pick_place_demo build --build-base /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/build install --record /home/fabin/PycharmProjects/turtlebot3_research_project/build/pick_place_demo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[1.475s] Invoking command in '/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_manipulation_control': PYTHONPATH=/home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_manipulation_control build --build-base /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/build install --record /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/install.log --single-version-externally-managed
+[1.681s] running egg_info
+[1.683s] writing ../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/PKG-INFO
+[1.684s] writing dependency_links to ../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/dependency_links.txt
+[1.684s] writing entry points to ../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/entry_points.txt
+[1.684s] writing requirements to ../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/requires.txt
+[1.684s] writing top-level names to ../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/top_level.txt
+[1.685s] reading manifest file '../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/SOURCES.txt'
+[1.686s] writing manifest file '../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info/SOURCES.txt'
+[1.686s] running build
+[1.687s] running build_py
+[1.687s] copying turtlebot3_manipulation_control/turtlebot3_ik_demo.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/build/lib/turtlebot3_manipulation_control
+[1.687s] copying turtlebot3_manipulation_control/__init__.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/build/lib/turtlebot3_manipulation_control
+[1.687s] running install
+[1.687s] running install_lib
+[1.688s] copying /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/build/lib/turtlebot3_manipulation_control/turtlebot3_ik_demo.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages/turtlebot3_manipulation_control
+[1.688s] copying /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/build/lib/turtlebot3_manipulation_control/__init__.py -> /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages/turtlebot3_manipulation_control
+[1.689s] byte-compiling /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages/turtlebot3_manipulation_control/turtlebot3_ik_demo.py to turtlebot3_ik_demo.cpython-310.pyc
+[1.691s] byte-compiling /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages/turtlebot3_manipulation_control/__init__.py to __init__.cpython-310.pyc
+[1.691s] running install_egg_info
+[1.692s] removing '/home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages/turtlebot3_manipulation_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.693s] Copying ../../build/turtlebot3_manipulation_control/turtlebot3_manipulation_control.egg-info to /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages/turtlebot3_manipulation_control-0.0.0-py3.10.egg-info
+[1.694s] running install_scripts
+[1.710s] Installing turtlebot3_ik_demo script to /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/turtlebot3_manipulation_control
+[1.711s] writing list of installed files to '/home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/install.log'
+[1.766s] Invoked command in '/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_manipulation_control' returned '0': PYTHONPATH=/home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_manipulation_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_manipulation_control build --build-base /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/build install --record /home/fabin/PycharmProjects/turtlebot3_research_project/build/turtlebot3_manipulation_control/install.log --single-version-externally-managed
