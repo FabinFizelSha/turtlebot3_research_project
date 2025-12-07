@@ -1,1 +1,0 @@
-/home/fabin/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h
