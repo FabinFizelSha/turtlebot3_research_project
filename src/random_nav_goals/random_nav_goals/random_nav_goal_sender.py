@@ -16,7 +16,7 @@ from tf_transformations import quaternion_from_euler
 
 
 class RandomNavGoalSender(Node):
-    def __init__(self, n_goals=5, wait_time=3.0):
+    def __init__(self, n_goals=10, wait_time=2.0):
         super().__init__('random_nav_goal_sender')
 
         self.n_goals = n_goals
@@ -118,7 +118,7 @@ class RandomNavGoalSender(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = RandomNavGoalSender(n_goals=3, wait_time=5.0)
+    node = RandomNavGoalSender(n_goals=10, wait_time=2.0)
 
     # Wait for Nav2 action server
     if not node.nav_to_pose_client.wait_for_server(timeout_sec=5.0):

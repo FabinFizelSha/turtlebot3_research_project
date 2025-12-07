@@ -6,7 +6,7 @@ from scipy.spatial.transform import Rotation, Slerp
 from datetime import datetime
 
 # --- Input HDF5 file ---
-input_file = '/home/fabin/turtlebot_ws/data/session_2025-10-25_17-33-16.h5'
+input_file = '/home/fabin/data_logged/Navigation/session_2025-12-07_22-54-08.h5'
 
 # --- Open raw dataset ---
 f = h5py.File(input_file, 'r')
@@ -99,7 +99,7 @@ lidar_aligned = np.column_stack((lidar_time, lidar_ranges))
 
 # --- Output file ---
 timestamp_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-output_file = os.path.expanduser(f'~/turtlebot_ws/data/sync/session_synchronized_{timestamp_str}.h5')
+output_file = os.path.expanduser(f'/home/fabin/data_logged/Navigation synchronized/{timestamp_str}.h5')
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
 # --- Write synchronized HDF5 ---
