@@ -1,1 +1,4 @@
-/home/fabin/turtlebot3_ws/src/turtlebot3_msgs/srv/Goal.srv
+---
+float32 pose_x
+float32 pose_y
+bool success

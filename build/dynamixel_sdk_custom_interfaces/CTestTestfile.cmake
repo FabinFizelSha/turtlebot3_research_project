@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/fabin/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces
-# Build directory: /home/fabin/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces
+# Source directory: /home/fabin/PycharmProjects/turtlebot3_research_project/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces
+# Build directory: /home/fabin/PycharmProjects/turtlebot3_research_project/build/dynamixel_sdk_custom_interfaces
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

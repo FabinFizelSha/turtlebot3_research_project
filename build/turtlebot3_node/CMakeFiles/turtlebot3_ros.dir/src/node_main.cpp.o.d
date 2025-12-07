@@ -1,5 +1,5 @@
 CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/node_main.cpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/src/node_main.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rcutils/rcutils/cmdline_parser.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
@@ -618,8 +618,8 @@ CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/diff_drive_controller.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/diff_drive_controller.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp \
  /opt/ros/humble/include/message_filters/message_filters/subscriber.h \
  /opt/ros/humble/include/message_filters/message_filters/connection.h \
  /opt/ros/humble/include/message_filters/message_filters/visibility_control.h \
@@ -694,7 +694,7 @@ CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
@@ -704,55 +704,55 @@ CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/sensor_state.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/control_table.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/devices.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/dynamixel_sdk_wrapper.hpp \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_sync_read.h \
- /home/fabin/turtlebot3_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_bulk_read.h \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/motor_power.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/control_table.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/devices.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/dynamixel_sdk_wrapper.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_sync_read.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_bulk_read.h \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/motor_power.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/set_bool.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/reset.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/reset.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/sound.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/srv/sound.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/srv/detail/sound__struct.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/srv/detail/sound__builder.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/srv/detail/sound__traits.hpp \
- /home/fabin/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_cpp/turtlebot3_msgs/srv/detail/sound__type_support.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/battery_state.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/sensors.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/imu.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/devices/sound.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__builder.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__traits.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/battery_state.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/sensors.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/imu.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/joint_state.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/sensor_state.hpp \
- /home/fabin/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/twist_subscriber.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/joint_state.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/sensors/sensor_state.hpp \
+ /home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/twist_subscriber.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \

@@ -21,7 +21,7 @@ class DatasetCollector(Node):
         self.bridge = CvBridge()
 
         # === Directory setup ===
-        base_dir = os.path.expanduser('~/turtlebot_ws/data')
+        base_dir = os.path.expanduser('~fabin/data_logged/Navigation')
         os.makedirs(base_dir, exist_ok=True)
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         self.file_path = os.path.join(base_dir, f'session_{timestamp}.h5')
@@ -72,7 +72,7 @@ class DatasetCollector(Node):
         """Triggered when a new navigation goal is published."""
         self.latest_goal = msg.pose
         self.get_logger().info(
-            f"🎯 New goal received: x={self.latest_goal.position.x:.2f}, "
+            f" New goal received: x={self.latest_goal.position.x:.2f}, "
             f"y={self.latest_goal.position.y:.2f}"
         )
 
@@ -142,7 +142,7 @@ class DatasetCollector(Node):
 
     # === Cleanup / save ===
     def destroy_node(self):
-        print("\n💾 Saving data to HDF5 file...")
+        print("\n Saving data to HDF5 file...")
 
         # --- Camera ---
         if self.image_data:
@@ -182,10 +182,10 @@ class DatasetCollector(Node):
             self.distance_grp.create_dataset('values', data=np.array(self.distance_data, dtype=np.float32), compression='gzip')
             print(f"✅ Saved {len(self.distance_data)} distance entries.")
         else:
-            print("⚠️ No distance_to_goal data recorded (no goals were received).")
+            print("⚠ No distance_to_goal data recorded (no goals were received).")
 
         self.file.close()
-        print(f"📁 Data saved to {self.file_path}")
+        print(f" Data saved to {self.file_path}")
         super().destroy_node()
 
 
@@ -195,7 +195,7 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        print("\n🛑 Ctrl+C pressed. Closing node...")
+        print("\n Ctrl+C pressed. Closing node...")
     finally:
         node.destroy_node()
         if rclpy.ok():

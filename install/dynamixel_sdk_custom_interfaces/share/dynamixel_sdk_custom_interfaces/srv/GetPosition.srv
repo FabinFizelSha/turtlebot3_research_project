@@ -1,1 +1,6 @@
-/home/fabin/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+# Constants
+# Request
+uint8 id
+---
+# Response
+int32 position

@@ -1,12 +1,12 @@
 {
   "package_name": "turtlebot3_msgs",
   "non_idl_tuples": [
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:srv/Goal.srv",
-    "/home/fabin/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:srv/Goal.srv",
+    "/home/fabin/PycharmProjects/turtlebot3_research_project/src/turtlebot3_msgs:action/Patrol.action"
   ]
 }
