@@ -6,7 +6,7 @@ from scipy.spatial.transform import Rotation, Slerp
 from datetime import datetime
 
 # --- Input HDF5 file ---
-input_file = '/home/fabin/data_logged/Navigation/session_2025-12-07_22-54-08.h5'
+input_file = '/home/fabin/data_logged/Navigation/session_2025-12-08_23-18-24.h5'
 
 # --- Open raw dataset ---
 f = h5py.File(input_file, 'r')
@@ -15,6 +15,7 @@ f = h5py.File(input_file, 'r')
 lidar_scans = np.array(f['lidar/scans'])
 lidar_time = lidar_scans[:, 0]  # first column = timestamps
 lidar_ranges = lidar_scans[:, 1:]  # remaining columns = scan values
+
 
 
 # --- Helper: interpolate numeric sensors ---

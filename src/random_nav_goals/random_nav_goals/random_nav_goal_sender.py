@@ -52,6 +52,14 @@ class RandomNavGoalSender(Node):
 
     # --- Send random goals sequentially ---
     def send_random_goals(self):
+        # Switch to IDLE **before waiting**
+        self.current_status = self.IDLE
+
+        # Wait period while still spinning
+        t_end = self.get_clock().now().nanoseconds * 1e-9 + self.wait_time
+        while self.get_clock().now().nanoseconds * 1e-9 < t_end:
+            rclpy.spin_once(self, timeout_sec=0.1)
+
         for i in range(self.n_goals):
             # Switch to ACTIVE
             self.current_status = self.ACTIVE

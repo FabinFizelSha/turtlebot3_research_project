@@ -48,14 +48,14 @@ class DatasetCollector(Node):
         self.distance_data = []
 
         self.latest_goal = None
-        self.latest_distance = 0
+        self.latest_distance = float('inf')
         self.current_goal_status = 0
         self.last_timestamp = 0.0
 
         # === Subscribers ===
-        self.sub_image = self.create_subscription(Image, '/pi_camera/image_raw', self.image_cb, 10)
+        self.sub_image = self.create_subscription(Image, '/camera/image_raw', self.image_cb, 10)
         self.sub_lidar = self.create_subscription(LaserScan, '/scan', self.lidar_cb, 10)
-        self.sub_imu = self.create_subscription(Imu, '/imu_broadcaster/imu', self.imu_cb, 10)
+        self.sub_imu = self.create_subscription(Imu, '/imu', self.imu_cb, 10)
         self.sub_odom = self.create_subscription(Odometry, '/odom', self.odom_cb, 10)
         self.sub_goal = self.create_subscription(GoalStatusArray, '/navigate_to_pose/_action/status', self.goal_cb, 10)
         self.sub_goal_pose = self.create_subscription(PoseStamped,'/Nav_goal_position',self.goal_pose_cb,10)
